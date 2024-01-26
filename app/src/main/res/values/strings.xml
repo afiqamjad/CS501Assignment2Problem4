@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">[AfiqAmjad]Assignment2Problem4</string>
+    <string name="firstOperand">Enter Your First Value</string>
+    <string name="secondOperand">Enter Your Second Value</string>
+    <string name="addition">+</string>
+    <string name="subtraction">-</string>
+    <string name="multiplication">x</string>
+    <string name="division">/</string>
+    <string name="modulus">%</string>
+    <string name="equals">=</string>
 </resources>
