@@ -20,12 +20,13 @@
                 android:id="@+id/firstOperand"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number"
+                android:inputType="numberDecimal"
                 android:hint="@string/firstOperand"
                 android:importantForAutofill="no">
             </EditText>
         </com.google.android.material.textfield.TextInputLayout>
             <RadioGroup
+                android:id="@+id/radioGroup"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
@@ -64,7 +65,7 @@
                 android:id="@+id/secondOperand"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number"
+                android:inputType="numberDecimal"
                 android:hint="@string/secondOperand"
                 android:importantForAutofill="no">
             </EditText>
@@ -74,6 +75,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/equals"/>
+
+        <TextView
+            android:id="@+id/finalResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="25sp" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
